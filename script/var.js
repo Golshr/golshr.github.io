@@ -55,7 +55,7 @@ var favorites = [
   [ "Download",
     [
       ["ZoneT", "http://www.zone-telechargement.ws/", "zt"],
-      ["LibertyLand", "http://libertyland.co/", "ll"]
+      ["LibertyLand", "http://libertyland.co/", "ll"],
       ["T411", "http://www.t411.li/", "t411"]
     ]
   ],
