@@ -41,15 +41,15 @@ var favorites = [
   [ "Work",
     [
       ["42" , "http://intra.42.fr/", "42"],
-      ["github" , "https://github.com/", "gh"],
-      ["edt" , "https://upplanning6.appli.univ-poitiers.fr/direct/myPlanningUP.html", "edt"]
+      ["github" , "http://github.com/", "gh"],
+      ["edt" , "http://upplanning6.appli.univ-poitiers.fr/direct/myPlanningUP.html", "edt"]
     ]
   ],
   [ "Social",
     [
-      ["facebook" , "https://www.facebook.com/" , "fb"],
-      ["twitter" , "https://twitter.com/", "twi"],
-      ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"]
+      ["facebook" , "http://www.facebook.com/" , "fb"],
+      ["twitter" , "http://twitter.com/", "twi"],
+      ["gmail" , "http://mail.google.com/mail/u/0/#inbox", "gm"]
     ]
   ],
   [ "Download",
@@ -61,18 +61,18 @@ var favorites = [
   ],
   [ "Games",
     [
-      ["Herobrine", "https://www.herobrine.fr/", "hb"],
-      ["HumbleBundle", "https://www.humblebundle.com", "hubl"],
-      ["SCP", "fondationscp.wikidot.com", "scp"],
-      ["TCRF", "tcrf.net", "tcrf"]
+      ["Herobrine", "http://www.herobrine.fr/", "hb"],
+      ["HumbleBundle", "http://www.humblebundle.com", "hubl"],
+      ["SCP", "http://fondationscp.wikidot.com", "scp"],
+      ["TCRF", "http://tcrf.net", "tcrf"]
     ]
   ],
   [ "Media",
     [
-      ["YouTube", "https://www.youtube.com/feed/subscriptions", "yt"],
+      ["YouTube", "http://www.youtube.com/feed/subscriptions", "yt"],
       ["Deezer", "http://www.deezer.com/", "dz"],
-      ["Plug", "https://plug.dj", "dj"],
-      ["Twitch", "https://www.twitch.tv/", "tw"]
+      ["Plug", "http://plug.dj", "dj"],
+      ["Twitch", "http://www.twitch.tv/", "tw"]
     ]
   ],
   [ "Others",
