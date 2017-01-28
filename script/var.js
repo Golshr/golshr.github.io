@@ -1,7 +1,7 @@
 // All the variable for the app
 // Their name are explicit
 
-var username = "Cel51"
+var username = "Golsh"
 var clientid = "be212a58528168962a39c64052c1d88e";
 var redirecturi = "http://localhost:8002/callback.html";
 var locations = [
@@ -39,51 +39,49 @@ var searchs = [
 var favorites = [
   [ "Work",
     [
-      ["cpnv" , "http://intranet.cpnv.ch/", "cpnv"],
+      ["42" , "http://intra.42.fr/", "42"],
       ["github" , "https://github.com/", "gh"],
-      ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
-      ["bitbucket" , "http://bitbucket.org", "bb"]
+      ["edt" , "https://upplanning6.appli.univ-poitiers.fr/direct/myPlanningUP.html", "edt"]
     ]
   ],
   [ "Social",
     [
-      ["whatsapp" , "https://web.whatsapp.com/", "wa"],
-      ["hangouts" , "http://hangouts.google.com", "hang"],
       ["facebook" , "https://www.facebook.com/" , "fb"],
-      ["twitter" , "https://twitter.com/", "twi"]
+      ["twitter" , "https://twitter.com/", "twi"],
+      ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"]
     ]
   ],
   [ "Download",
     [
-      ["thepiratebay", "http://thepiratebay.se", "tpb"],
-      ["T411", "http://www.t411.in/", "t411"]
+      ["ZoneT", "http://www.zone-telechargement.ws/", "zt"],
+      ["LibertyLand", "http://libertyland.co/", "ll"]
+      ["T411", "http://www.t411.li/", "t411"]
     ]
   ],
-  [ "Reddit",
+  [ "Games",
     [
-      ["Frontpage", "https://www.reddit.com/", "fp"],
-      ["LoL", "https://www.reddit.com/r/leagueoflegends/", "lol"],
-      ["4chan", "https://www.reddit.com/r/4chan/", "4ch"],
-      ["Monster Hunter", "https://www.reddit.com/r/MonsterHunter/", "mh"],
-      ["Programmer Humor", "https://www.reddit.com/r/ProgrammerHumor/", "ph"]
+      ["Herobrine", "https://www.herobrine.fr/", "hb"],
+      ["HumbleBundle", "https://www.humblebundle.com", "hubl"],
+      ["SCP", "fondationscp.wikidot.com", "scp"],
+      ["TCRF", "tcrf.net", "tcrf"]
     ]
   ],
-  [ "4chan",
+  [ "Media",
     [
-      ["/b/", "http://4chan.org/b/", "b"],
-      ["/wg/", "http://4chan.org/wg/", "wg"],
-      ["/g/", "http://4chan.org/g/", "g"]
+      ["YouTube", "https://www.youtube.com/feed/subscriptions", "yt"],
+      ["Deezer", "http://www.deezer.com/", "dz"],
+      ["Plug", "https://plug.dj", "dj"],
+      ["Twitch", "https://www.twitch.tv/", "tw"]
     ]
   ],
   [ "Others",
     [
-      ["hugelol", "http://hugelol.com", "hgl"],
-      ["hiddenlol", "http://hiddenlol.com", "hdl"]
+      ["PriceMinister", "http://www.priceminister.com/", "pm"],
+      ["Korben", "http://korben.info/", "kb"],
+      ["Choualbox", "http://choualbox.com/", "cb"]
     ]
   ]
 ];
 var feeds = [
-  ["20min Hi-Tech","http://www.20min.ch/rss/rss.tmpl?type=channel&get=20&lang=ro"],
-  ["Internet is Beautiful", "https://www.reddit.com/r/InternetIsBeautiful/.rss"],
-  ["Listen to this", "https://www.reddit.com/r/listentothis/.rss"]
+  ["Le Monde","http://www.lemonde.fr/rss/une.xml"]
 ];
