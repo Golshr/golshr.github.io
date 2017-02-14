@@ -84,5 +84,6 @@ var favorites = [
   ]
 ];
 var feeds = [
-  ["Le Monde","http://www.lemonde.fr/rss/une.xml"]
+  ["Le Monde","http://www.lemonde.fr/rss/une.xml"],
+  ["Mediapart","https://www.mediapart.fr/articles/feed"]
 ];
