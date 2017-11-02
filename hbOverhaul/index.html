@@ -1,20 +1,87 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>Herobrine Overhaul</title>
   
   <style type="text/css">
-	    body {
+	body {
 		background-color: black;
-    		color: white; 
-		  }
+    	color: white;
+		width: 700px;
+		margin: auto;
+	}
+	ul > li {
+		list-style: none;
+		font-family: 'WidaRound';
+		letter-spacing: 0.03em;
+		border-top: 1px solid #444;
+	}
+	ul {
+		-webkit-padding-start: 0px;
+	}
+	ol > li {
+		list-style: none;
+		font-family: 'WidaRound';
+		letter-spacing: 0.03em;
+		color: #B0B0B0;
+	}
+	strong {
+		font-family: 'CookieCutterCulture';
+		letter-spacing: 0.3em;
+	}
+	p {
+		font-family: 'kenyancoffee';
+		letter-spacing: 0.05em;
+		font-size: 1.4em;
+		color: #B0B0B0;
+	}
+	b {
+		font-family: monospace;
+		text-align: center;
+		display: block;
+		margin-bottom: 40px;
+		font-size: 1.2em;
+		color: white;
+	}
 	@font-face {
-  font-family: 'Homenaje';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Homenaje Regular'), local('Homenaje-Regular'), url(https://fonts.gstatic.com/s/homenaje/v7/4S5MkF9F4U5BChzwjsyu0vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
+		font-family: 'CookieCutterCulture';
+		src: url('CookieCutterCulture.otf');
+	}
+	@font-face {
+		font-family: 'WidaRound';
+		src: url('WidaRound.otf');
+	}
+	@font-face {
+		font-family: 'kenyancoffee';
+		src: url('kenyancoffee.ttf');
+	}
+	img {
+		display: block;
+		margin: auto;
+		width: 400px;
+		margin-top: 40px;
+	}
+	em {
+		text-align: center;
+		display: block;
+		margin-bottom: 40px;
+	}
+	br {
+		content: "";
+		margin: 5em;
+		display: block;
+		font-size: 24%;
+	}
+	a {
+	    display: block;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	hr {
+		border: 0;
+		height: 1px;
+		background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+	}
   </style>
   
 <script type="text/javascript">
@@ -35,8 +102,64 @@
 			<div>
 				<ul class="style1">
 					<li>
-                        <h2 class="title"><a name="whatis">&gt; Qu'est-ce qu'Herobrine Overhaul> ?</a></h2>
+                        <h2 class="title">&gt; Qu'est-ce qu'Herobrine Overhaul ?</h2>
                         <p>
+							Herobrine Overhaul est un mod créé pour ajouter à l'expérience de jeu sur le serveur d'herobrine.fr, la simplifier, etc.
+                        </p>
+                    </li>
+					<li>
+                        <h2 class="title">&gt; Qu'ajoute-t-il ?</h2>
+                        <p>
+							Le mod ajoute un petit nombre de choses utiles :
+							<ol>
+								<li>&gt; Taille de l'historique du chat passé de 100 à 1000</li>
+								<li>&gt; Shaders pour la vision des Sapères et Onyx</li>
+								<li>&gt; Un clic droit sur un personnage affiche son nom RP et son nom Minecraft</li>
+								<li>&gt; Ajout d'un bouton pour activer/désactiver les messages commencant par "Hey!"</li>
+								<li>&gt; Bouton d'accès rapide au serveur</li>
+							</ol>
+                        </p>
+                    </li>
+					<li>
+                        <h2 class="title">&gt; Téléchargement</h2>
+                        <p>
+							<a href="./HerobrineOverhaul1.0-BETA.jar">Version 1.0-BETA pour minecraft 1.12.1</a>
+							<a href="https://drive.google.com/drive/folders/0B4YzNeev5CPPTTZ4MElWekM1cTQ?usp=sharing" target = "_blank">Anciennes versions</a>
+							<a href="https://drive.google.com/drive/folders/0B4YzNeev5CPPNWtLSGx2ODlvU0U?usp=sharing" target = "_blank">Sources</a>
+                        </p>
+                    </li>
+					<li>
+                        <h2 class="title">&gt; Comment l'installer ?</h2>
+                        <p>
+							<ol class="instructions">
+								<li>1 &gt; Téléchargez et installez la derniere version de Forge<br/>
+									<a href="https://files.minecraftforge.net/" target = "_blank">Page de téléchargement de Forge</a>
+									<img src="./tuto3.png" alt="Image indisponible"><em>Choisissez bien la bonne version !</em></img>
+									<img src="./tuto2.png" alt="Image indisponible"><em>Téléchargez le "Windows Installer" de la version Recommandée</em></img>
+									<img src="./tuto4.png" alt="Image indisponible"><em>Lancez-le et cliquez sur "OK"</em></img>
+								</li>
+								<hr/>
+								<li>_ &gt; [Facultatif]Téléchargez et installez la derniere version d'optifine<br/>
+									<a href="https://optifine.net/downloads" target = "_blank">Page de téléchargement de Optifine</a>
+									<img src="./tuto5.png" alt="Image indisponible"><em>Choisissez bien la bonne version !</em></img>
+									<img src="./tuto7.png" alt="Image indisponible"><em>Ouvrez le fichier avec "Java(TM) Platform SE binary"</em></img>
+									<img src="./tuto6.png" alt="Image indisponible"><em>Cliquez sur "Extract", pas sur "Install"</em></img>
+								</li>
+								<hr/>
+								<li>2 &gt; Téléchargez le mod "Herobrine Overhaul" dans la section "Téléchargements" plus haut<br/>
+								</li>
+								<hr/>
+								<li>3 &gt; Ouvrir un explorateur de fichiers et tapez la ligne suivante : <br/>
+									<b>%appdata%/.minecraft/mods</b>
+									<img src="./tuto1.png" alt="Image indisponible"><em>Comme ceci</em></img>
+								</li>
+								<hr/>
+								<li>4 &gt; Copiez-collez le fichier du mod dans le dossier ouvert<br/></li>
+								<hr/>
+								<li>5 &gt; Lancez le launcher minecraft et changez de profil
+									<img src="./tuto8.png" alt="Image indisponible"><em>Cliquez sur la fleche verte à droite du bouton "Jouer" et choisissez le nouveau profil</em></img>
+								</li>
+							</ol>
                         </p>
                     </li>
                 </ul>
