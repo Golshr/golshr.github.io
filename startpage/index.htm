@@ -5,19 +5,51 @@
 		<title>New tab</title>
 		<script>
 			function randombg(){
-			  var random= Math.floor(Math.random() * 34) + 0;
-			  document.getElementById("random").style.backgroundImage="url('https://raw.githubusercontent.com/Golshr/golshr.github.io/master/startpage/" + random + ".gif')";
+				var random= Math.floor(Math.random() * 35);
+				var img = new Image();
+				img.src = "https://raw.githubusercontent.com/Golshr/golshr.github.io/master/startpage/" + random + ".gif";
+			
+				document.getElementById("pict").src = img.src;
+				document.getElementById("blurpict").src = img.src;
+
+				if (window.innerHeight > window.innerWidth) {
+					document.getElementById("pict").width = window.innerWidth;
+					document.getElementById("blurpict").height = window.innerHeight + 60;
+				} else {
+					document.getElementById("pict").height = window.innerHeight;
+					document.getElementById("blurpict").width = window.innerWidth + 60;
+				}
+
 			}
 		</script>
 		<style>
-			#random{
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-color: black;
+			body {
+				margin:0px;
+				overflow:hidden;
+				background-color:#282828;
+			}
+			#blurpict {
+				position: absolute;
+				filter : blur(5px);
+				margin:-30px;
+			}
+			#blurpict {
+				position: absolute;
+				filter : blur(5px);
+				margin:-30px;
+				margin-top: 50vh;
+				transform: translateY(-50%);
+			}
+			#pict {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%,-50%)
 			}
 		</style>
 	</head>
 	<body onLoad="randombg();">
-	<div id="random"></div>
+	<img id="blurpict" />
+	<img id="pict" />
 	</body>
 </html>
