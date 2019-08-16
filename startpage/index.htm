@@ -46,10 +46,30 @@
 				top: 50%;
 				transform: translate(-50%,-50%)
 			}
+			#formid {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			#inputid {
+				border: none;
+				background: transparent;
+				text-align: center;
+				font-size: 42px;
+				height: 55px;
+				color: rgb(235, 219, 178);
+			}
+			#inputid:focus {
+				outline: none;
+			}
 		</style>
 	</head>
 	<body onLoad="randombg();">
 	<img id="blurpict" />
 	<img id="pict" />
+	<form id="formid" class="websearch" action="https://www.google.com/search" method="get">
+        <input autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" id="inputid" name="q" type="text" autofocus="">
+    </form>
 	</body>
 </html>
